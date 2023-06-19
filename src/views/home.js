@@ -3,13 +3,15 @@ import LemeImage from "./Leme.png";
 import { Helmet } from "react-helmet";
 import "./home.css";
 import LemeImage1 from "./img.png";
+import LemeImage2 from "./img2.png";
+import LemeImage3 from "./img3.png";
 
 const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Leme Compressores</title>
-        <meta property="og:title" content="Leme Compressores" />
+        <title>WebBuild Innovations</title>
+        <meta property="og:title" content="WebBuild Innovations" />
       </Helmet>
       <div data-role="Header" className="home-navbar-container">
         <div className="home-navbar">
@@ -19,22 +21,20 @@ const Home = (props) => {
           </div>
           <div className="home-links-container">
             <a href="#features" className="home-link Anchor">
-              Locação
+              Serviços
             </a>
             <a href="#services" className="home-link1 Anchor">
-              serviços
+              Blog
             </a>
             <a href="#about-us" className="home-link2 Anchor">
               Sobre nós
             </a>
             <a href="#contact" className="home-link3 Anchor">
-              Duvidas
+              Contato
             </a>
           </div>
           <div className="home-cta-container">
-            <button className="home-cta-btn button Anchor">
-              Entre em Contato
-            </button>
+            
             <div data-role="BurgerMenu" className="home-burger-menu">
               <svg viewBox="0 0 1024 1024" className="home-icon">
                 <path d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"></path>
@@ -53,21 +53,19 @@ const Home = (props) => {
             <div className="home-mid">
               <div className="home-links-container1">
                 <a href="#features" className="home-link4 Anchor">
-                  Locação
+                  Serviços
                 </a>
                 <a href="#services" className="home-link5 Anchor">
-                  Serviços
+                  Blog
                 </a>
                 <a href="#about-us" className="home-link6 Anchor">
                   Sobre Nós
                 </a>
                 <a href="#contact" className="home-link7 Anchor">
-                  Duvidas
+                  Contato
                 </a>
               </div>
-              <button className="home-cta-btn1 Anchor button">
-                Entre em Contato
-              </button>
+              
             </div>
             <div className="home-bot">
               <div className="home-social-links-container">
@@ -119,9 +117,9 @@ const Home = (props) => {
       <div className="home-section-separator"></div>
       <div id="features" className="home-features">
         <div className="home-heading-container">
-          <h2 className="home-text04 Section-Heading">Locação</h2>
+          <h2 className="home-text04 Section-Heading">Serviços</h2>
           <span className="home-text05 Section-Text">
-          Para atender sua demanda á curto, médio ou longo prazo ou até mesmo para planos de contigência e emergência oferecemos uma linha de compressores para locação
+          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
           </span>
         </div>
         <div className="home-cards-container">
@@ -134,7 +132,7 @@ const Home = (props) => {
               src={LemeImage1}
               className="home-image3"
             />
-            <span className="home-heading1 Card-Heading">Why</span>
+            <span className="home-heading1 Card-Heading">Desenvolvimento de Sites</span>
             <span className="home-text06 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -144,10 +142,10 @@ const Home = (props) => {
           <div className="home-feature-card1">
             <img
               alt="image"
-              src="https://images.unsplash.com/photo-1619547871672-b6562e042c1e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+              src={LemeImage3}
               className="home-image4"
             />
-            <span className="home-heading2 Card-Heading">What</span>
+            <span className="home-heading2 Card-Heading">Sistema Web</span>
             <span className="home-text07 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
@@ -157,10 +155,10 @@ const Home = (props) => {
           <div className="home-feature-card2">
             <img
               alt="image"
-              src="https://images.unsplash.com/photo-1619555241737-9c364cf1fbce?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000"
+              src={LemeImage2}
               className="home-image5"
             />
-            <span className="home-heading3 Card-Heading">How</span>
+            <span className="home-heading3 Card-Heading">Automação de Processos</span>
             <span className="home-text08 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed
