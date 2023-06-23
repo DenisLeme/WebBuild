@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@craco/craco": "^7.0.0-alpha.0",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "markdown-to-jsx": "^7.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "react-markdown": "^8.0.7",
     "react-router-dom": "^5.2.0",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "swiper": "^9.3.2"
+    "swiper": "^9.3.2",
+    "vfile-reporter": "^8.0.0"
   },
   "scripts": {
     "start": "craco start",

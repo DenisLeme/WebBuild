@@ -1,64 +1,72 @@
-function renderSlider() {
-    const settings = {
+import React, { Component } from "react";
+
+
+export default function Homeslider () {
+  render(); {
+    var settings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
-  
-    const slides = [
-      {
-        image:
-          'https://images.unsplash.com/photo-1619548683455-23b17c3ddc30?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000',
-        heading: 'Why',
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.',
-      },
-      {
-        image:
-          'https://images.unsplash.com/photo-1619547871672-b6562e042c1e?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000',
-        heading: 'What',
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.',
-      },
-      {
-        image:
-          'https://images.unsplash.com/photo-1619555241737-9c364cf1fbce?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;h=1000',
-        heading: 'How',
-        text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.c Sed nisi. Nulla quis sem at nibh elementum imperdiet.',
-      },
-    ];
-  
-    return React.createElement(
-      Slider,
-      settings,
-      slides.map((slide, index) => {
-        return React.createElement(
-          'div',
-          { key: index },
-          React.createElement('img', { src: slide.image, alt: 'image' }),
-          React.createElement('span', { className: 'Card-Heading' }, slide.heading),
-          React.createElement('span', { className: 'Card-Text' }, slide.text)
-        );
-      })
+    return (
+      <div>
+        <h2> Blog </h2>
+        <Slider {...settings}>
+          <div>
+            <h3>1</h3>
+          </div>
+          <div>
+            <h3>2</h3>
+          </div>
+          <div>
+            <h3>3</h3>
+          </div>
+          <div>
+            <h3>4</h3>
+          </div>
+          <div>
+            <h3>5</h3>
+          </div>
+          <div>
+            <h3>6</h3>
+          </div>
+          <div>
+            <h3>7</h3>
+          </div>
+          <div>
+            <h3>8</h3>
+          </div>
+        </Slider>
+      </div>
     );
   }
-  
-  function HomeSlider() {
-    useEffect(() => {
-      const slider = renderSlider();
-      ReactDOM.render(slider, document.getElementById('slider'));
-    }, []);
-  
-    return React.createElement('div', { className: 'home-cards-container' }, [
-      React.createElement('div', { className: 'home-feature-card' }),
-      React.createElement('div', { className: 'home-feature-card1' }),
-      React.createElement('div', { className: 'home-feature-card2' }),
-      React.createElement('div', { id: 'slider' }),
-    ]);
-  }
-  
-  export default HomeSlider;
-  
+}

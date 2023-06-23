@@ -125,3 +125,12 @@
   text-transform: none;
   text-decoration: none;
 }
+
+/* Post */
+
+.article {
+  margin: 4rem0;
+}
+.post-wrapper{
+  width: 100%;
+}

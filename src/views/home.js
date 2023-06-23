@@ -5,6 +5,7 @@ import "./home.css";
 import LemeImage1 from "./img.png";
 import LemeImage2 from "./img2.png";
 import LemeImage3 from "./img3.png";
+import GetAllPosts from "./getAllPosts/getAllPosts";
 
 const Home = (props) => {
   return (
@@ -125,6 +126,8 @@ const Home = (props) => {
         <div className="home-cards-container">
         
  <div className="home-cards-container">
+
+ 
   
           <div className="home-feature-card">
             <img
@@ -170,23 +173,11 @@ const Home = (props) => {
       </div>
       <div id="services" className="home-services">
         <div className="home-service-card">
-          <div className="home-card-content">
-            <h3 className="home-text09 BigCard-Heading">Service name</h3>
-            <span className="home-text10 Card-Text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: " ",
-                }}
-              />
-            </span>
-            <button className="home-button button Anchor">READ MORE</button>
-          </div>
+          <GetAllPosts name="Article"/>
         </div>
         <div className="home-service-card1">
           <div className="home-card-content1">
-            <h3 className="home-text11 BigCard-Heading">Service name</h3>
+            <h3 className="home-text11 BigCard-Heading">Artigo 2</h3>
             <span className="home-text12 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
@@ -196,12 +187,12 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <button className="home-button1 button Anchor">READ MORE</button>
+            <button className="home-button1 button Anchor">Leia sobre</button>
           </div>
         </div>
         <div className="home-service-card2">
           <div className="home-card-content2">
-            <h3 className="home-text13 BigCard-Heading">Service name</h3>
+            <h3 className="home-text13 BigCard-Heading">Artigo 3</h3>
             <span className="home-text14 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
@@ -211,12 +202,12 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <button className="home-button2 Anchor button">READ MORE</button>
+            <button className="home-button2 Anchor button">Leia Sobre</button>
           </div>
         </div>
         <div className="home-service-card3">
           <div className="home-card-content3">
-            <h3 className="home-text15 BigCard-Heading">Service name</h3>
+            <h3 className="home-text15 BigCard-Heading">Artigo 4</h3>
             <span className="home-text16 Card-Text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero.
@@ -226,7 +217,7 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <button className="home-button3 button Anchor">READ MORE</button>
+            <button className="home-button3 button Anchor">Leia Sobre</button>
           </div>
         </div>
       </div>
