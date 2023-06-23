@@ -224,7 +224,7 @@ const Home = (props) => {
       <div id="about-us" className="home-about-us">
         <div className="home-heading-container1">
           <h2 className="home-text17 Section-Heading">
-            What&apos;s the story behind our product?
+            O que esperar do nosso produto
           </h2>
           <span className="home-secondary-text Section-Text">
             {" "}
@@ -262,19 +262,19 @@ const Home = (props) => {
             pariatur?
           </span>
         </div>
-        <button className="home-cta-btn4 button Anchor">START BUILDING</button>
+        <button className="home-cta-btn4 button Anchor">Leia mais</button>
       </div>
       <div className="home-section-separator1"></div>
       <div className="home-testimonials">
         <h2 className="home-text20 Section-Heading">
-          What are they saying about us?
+          O que estão dizendo sobre nós?
         </h2>
         <div className="home-cards-container1">
           <div className="home-testimonial-card">
             <div className="home-card-heading">
               <div className="home-name-and-position">
-                <span className="Card-Heading">Will Evans</span>
-                <span className="home-position Card-Text">Position</span>
+                <span className="Card-Heading">Denis Leme</span>
+                <span className="home-position Card-Text">FeedBack</span>
               </div>
               <div className="home-stars-container">
                 <svg
@@ -318,8 +318,8 @@ const Home = (props) => {
           <div className="home-testimonial-card1">
             <div className="home-card-heading1">
               <div className="home-name-and-position1">
-                <span className="Card-Heading">Marie Alba</span>
-                <span className="home-position1 Card-Text">Position</span>
+                <span className="Card-Heading">Carlos Alberto</span>
+                <span className="home-position1 Card-Text">FeedBack</span>
               </div>
               <div className="home-stars-container1">
                 <svg
@@ -363,8 +363,8 @@ const Home = (props) => {
           <div className="home-testimonial-card2">
             <div className="home-card-heading2">
               <div className="home-name-and-position2">
-                <span className="Card-Heading">Taylor Sam</span>
-                <span className="home-position2 Card-Text">Position</span>
+                <span className="Card-Heading">Ronaldo</span>
+                <span className="home-position2 Card-Text">FeedBack</span>
               </div>
               <div className="home-stars-container2">
                 <svg
@@ -410,22 +410,22 @@ const Home = (props) => {
       <div id="contact" className="home-contact">
         <div className="home-content-container">
           <h2 className="home-text24 Section-Heading">
-            This is where to find us
+            Aqui você nós encontra
           </h2>
           <div className="home-locations-container">
             <div className="home-location-1">
-              <span className="home-heading4">London Office</span>
+              <span className="home-heading4">São Paulo</span>
               <div className="home-adress">
                 <svg viewBox="0 0 1024 1024" className="home-icon40">
                   <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                 </svg>
-                <span className="Section-Text">Address</span>
+                <span className="Section-Text">Endereço</span>
               </div>
               <div className="home-email">
                 <svg viewBox="0 0 1024 1024" className="home-icon42">
                   <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                 </svg>
-                <span className="Section-Text">E-mail Address</span>
+                <span className="Section-Text">E-mail </span>
               </div>
               <div className="home-phone">
                 <svg
@@ -434,22 +434,22 @@ const Home = (props) => {
                 >
                   <path d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"></path>
                 </svg>
-                <span className="Section-Text">Phone Number</span>
+                <span className="Section-Text">Telefone</span>
               </div>
             </div>
             <div className="home-location-2">
-              <span className="home-heading5">New York Office</span>
+              <span className="home-heading5">Bahia</span>
               <div className="home-adress1">
                 <svg viewBox="0 0 1024 1024" className="home-icon46">
                   <path d="M512 0c-176.732 0-320 143.268-320 320 0 320 320 704 320 704s320-384 320-704c0-176.732-143.27-320-320-320zM512 512c-106.040 0-192-85.96-192-192s85.96-192 192-192 192 85.96 192 192-85.96 192-192 192z"></path>
                 </svg>
-                <span className="Section-Text">Address</span>
+                <span className="Section-Text">Endereço</span>
               </div>
               <div className="home-email1">
                 <svg viewBox="0 0 1024 1024" className="home-icon48">
                   <path d="M854 342v-86l-342 214-342-214v86l342 212zM854 170q34 0 59 26t25 60v512q0 34-25 60t-59 26h-684q-34 0-59-26t-25-60v-512q0-34 25-60t59-26h684z"></path>
                 </svg>
-                <span className="Section-Text">E-mail Address</span>
+                <span className="Section-Text">E-mail </span>
               </div>
               <div className="home-phone1">
                 <svg
@@ -458,7 +458,7 @@ const Home = (props) => {
                 >
                   <path d="M804.571 708.571c0 20.571-9.143 60.571-17.714 79.429-12 28-44 46.286-69.714 60.571-33.714 18.286-68 29.143-106.286 29.143-53.143 0-101.143-21.714-149.714-39.429-34.857-12.571-68.571-28-100-47.429-97.143-60-214.286-177.143-274.286-274.286-19.429-31.429-34.857-65.143-47.429-100-17.714-48.571-39.429-96.571-39.429-149.714 0-38.286 10.857-72.571 29.143-106.286 14.286-25.714 32.571-57.714 60.571-69.714 18.857-8.571 58.857-17.714 79.429-17.714 4 0 8 0 12 1.714 12 4 24.571 32 30.286 43.429 18.286 32.571 36 65.714 54.857 97.714 9.143 14.857 26.286 33.143 26.286 50.857 0 34.857-103.429 85.714-103.429 116.571 0 15.429 14.286 35.429 22.286 49.143 57.714 104 129.714 176 233.714 233.714 13.714 8 33.714 22.286 49.143 22.286 30.857 0 81.714-103.429 116.571-103.429 17.714 0 36 17.143 50.857 26.286 32 18.857 65.143 36.571 97.714 54.857 11.429 5.714 39.429 18.286 43.429 30.286 1.714 4 1.714 8 1.714 12z"></path>
                 </svg>
-                <span className="Section-Text">Phone Number</span>
+                <span className="Section-Text">Telefone</span>
               </div>
             </div>
           </div>
